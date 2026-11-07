@@ -35,6 +35,7 @@ h2{font-size:28px;margin:0 0 8px;letter-spacing:-.01em}.sub{color:var(--muted);m
 .stats{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 .stat{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:22px}
 .stat b{display:block;font-size:44px;color:var(--accent);line-height:1}.stat span{display:block;margin-top:8px}.stat small{color:var(--muted)}
+.video{position:relative;padding-top:56.25%;border-radius:16px;overflow:hidden;border:1px solid var(--line);background:#000}.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
 .faq dt{font-weight:700;margin-top:16px}.faq dd{margin:4px 0 0;color:var(--muted)}
 footer{padding:30px 0 50px;color:var(--muted);font-size:14px;border-top:1px solid var(--line)}
 @media(max-width:760px){.flow{grid-template-columns:1fr 1fr}.cards,.stats{grid-template-columns:1fr}nav a{margin-left:14px}.btn.ghost{margin:10px 0 0}}
@@ -44,14 +45,14 @@ footer{padding:30px 0 50px;color:var(--muted);font-size:14px;border-top:1px soli
 <div class="wrap">
 <header>
   <div class="logo"><span>Akca</span> Labs</div>
-  <nav><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></nav>
+  <nav><a href="#demo">Demo</a><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a></nav>
 </header>
 
 <div class="hero">
   <h1>Every form lead answered <span>in seconds</span>, not hours.</h1>
   <p class="lead">I connect your website and ad forms to text messages, email, your CRM and your phone. Homeowners get a reply before they call the next company on the page. Built for roofing, HVAC and plumbing companies.</p>
   <a class="btn" href="mailto:goktug@akcalabs.com?subject=Lead-flow%20audit">Ask for a free 10-minute audit</a>
-  <a class="btn ghost" href="#how">See what it does</a>
+  <a class="btn ghost" href="#demo">Watch the 2-minute demo</a>
   <div class="flow">
     <div class="step"><b>0 s</b>Homeowner submits your form<br><small>website, Google Ads, Facebook</small></div>
     <div class="step"><b>1 s</b>They get a text and an email<br><small>their name, the service, who will call</small></div>
@@ -60,6 +61,12 @@ footer{padding:30px 0 50px;color:var(--muted);font-size:14px;border-top:1px soli
     <div class="step"><b>Day 1–7</b>Automatic follow-ups<br><small>until someone marks it contacted</small></div>
   </div>
 </div>
+
+<section id="demo">
+  <h2>See it work in two minutes</h2>
+  <p class="sub">A demo roofing site: the form is submitted and every step lights up with its timestamp.</p>
+  <div class="video"><iframe src="https://www.youtube-nocookie.com/embed/sjERhBfxK20?rel=0" title="Lead-flow automation demo" loading="lazy" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+</section>
 
 <section id="how">
   <h2>Why the first five minutes matter</h2>
